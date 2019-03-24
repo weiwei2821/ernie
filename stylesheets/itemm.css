@@ -1,0 +1,364 @@
+.container{
+    width: 1080px;
+    margin: 0 auto;
+}
+.top{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    padding: 5px 0;
+    background: #000000;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    width: 426px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.menu .left-menu li{
+    flex: 0 0 33%;
+}
+.left-menu a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #888888;
+}
+.left-menu a:hover{
+    background: #666666;
+}
+.menu{
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    position: relative;
+    bottom: 0;
+    justify-content: space-between;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    width: 426px;
+}
+.right-icon{
+    display: flex;
+    justify-content: flex-end;
+    width: 426px;
+}
+.right-icon a{
+    display: block;
+    color: #888888;
+    font-size: 18px;
+    top: 50%;
+    padding: 0 10px;
+}
+.right-icon a:hover{
+    background: #666666;
+}
+.right-icon .cart{
+    padding: 0 20px;
+}
+
+.bookmark{
+    height: 40px;
+}
+.bookmark a{
+    text-decoration: none;
+    color: #888888;
+    position: relative;
+    top: 15px;
+}
+.bookmark a:hover{
+    color: #666666;
+}
+.bookmark span{
+    position: relative;
+    top: 15px;
+    color: #000000;;
+}
+.buy-item .container{
+    display: flex;
+}
+.item-photo{
+    width: 540px;
+    height: 800px;
+}
+.item-select{
+    position: relative;
+    left: 50px;
+}
+.item-select h2{
+    margin-bottom: 0;
+}
+.item-select h5{
+    margin-top: 0;
+}
+.item-select h4{
+    margin-bottom: 5px;
+}
+.item-select select{
+    width: 350px;
+    height: 30px;
+}
+.item-select input{
+    width: 50px;
+    height: 25px;
+}
+.item-select button{
+    background: #000000;
+    color:white;
+    width: 350px;
+    height: 30px;
+    padding: 0;
+    margin: 15px 0;
+}
+.item-select hr{
+    margin: 0;
+    width: 350px;
+}
+.item-introduction{
+    font-size: 14px;
+    line-height: 14px;
+    width: 500px;
+    display: flex;
+}
+.Related{
+    display: block;
+}
+.Related h2{
+    margin: 10px 0;
+}
+.Related ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.Related a{
+    display: flex;
+    text-decoration: none;
+    color: #000000;
+}
+.Related img{
+    margin: 10px 10px 10px 0;
+}
+.page{
+    height: 50px;
+    line-height: 50px;
+}
+
+.page ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.page a{
+    display: block;
+    justify-content: center;
+    text-decoration: none;
+    color: #000000;
+}
+.page a:hover{
+    background: #666666;
+}
+
+.page-footer{
+    background: #f5f5f5;
+    height: 300px;
+}
+.footer-word{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 50px; 
+}
+span{
+    display: block;
+}
+.email input{
+    display: block;
+    position: relative;
+    left: 35%;
+    top: 20px;
+    width: 300px;
+}
+.email button{
+    position: relative;
+    left: 35%;
+    top: 30px;
+    width: 304px;
+    border: none;
+    background: #000;
+    color:#ffffff;
+}
+.email input:focus{
+    outline: none;
+    border-color:#ccdd44;
+}
+.email i{
+    position: relative;
+    left: 385px;
+    top: 42px;
+    z-index: 1;
+}
+.buttom-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex: 0 0 20%;
+}
+.buttom-menu{
+    background: #000;
+    display: block;
+}
+.buttom-menu a{
+    position: relative;
+    left: 350px;
+    padding: 10px;
+    float: left;
+    display: flex;
+    text-decoration: none;
+    color: #ddd;
+}
+.buttom-menu a:hover{
+    background: #aaaaaa;
+}
+.buttom-buttom{
+    background: #888888;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+}
+
+/*購物車頁面*/
+
+
+.keep{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    color: #888888;
+}
+.keep a{
+    display: block;
+    width: 120px;
+    text-align: center;
+    color: #888888;
+    text-decoration: none;
+}
+.keep a:hover{
+    background: #666666;
+}
+.cart ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.cart li{
+    flex: 0 0 270px;
+    color: #888888;
+    display: flex;
+    justify-content:flex-end;
+}
+.cart li:first-child{
+    display: inline;
+}
+.cart-photo img{
+    display: block;
+}
+.cart-photo{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    justify-content: space-between;
+}
+.detail{
+    position: relative;
+    top: 20%;
+    right: 10%;
+}
+.detail h5{
+    margin-top: 5px;
+    color: #666666;
+}
+.detail a{
+    color: #888888;
+    text-decoration: none;
+}
+.subtotal{
+    position: relative;
+    top: 30%;
+}
+hr{
+    margin-bottom: 20px; 
+}
+.price{
+    position: relative;
+    top: 30%;
+    right: 17%;
+}
+.count{
+    position: relative;
+    top: 30%;
+    right: 8%;
+}
+.count input{
+    width: 30px;
+}
+.buy{
+    height: 250px;
+    color: #888888;
+}
+.discount{
+    display: flex;
+    justify-content: space-between;
+}
+.discount input{
+    width: 100px;
+    height: 30px;
+}
+.total{
+    width: 360px;
+}
+.total-price{
+    position: relative;
+    left: 87%;
+    bottom: 10%;
+}
+.total-freight{
+    position: relative;
+    left: 93.5%;
+    bottom: 11%;
+}
+.total-total{
+    position: relative;
+    left: 87%;
+    bottom: 13%;
+}
+.total hr{
+    margin-bottom: 20px;
+}
+.total button{
+    width: 360px;
+    background: black;
+    color: #ddd;
+    font-weight: bold;
+    border: none;
+    height: 45px;
+}
+
+@media screen and (max-width: 1140px){
+    .container{
+        width: 820px;
+    }
+}

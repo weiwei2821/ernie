@@ -1,0 +1,193 @@
+html{
+    font-family: 'Noto Serif TC', serif;
+    line-height: 1.3em;
+}
+.top-menu {
+    height: 20px;
+    text-align: center;
+    padding: 8px 0;
+    background:#000000;
+    color: #ddd;
+    font-weight: bold;
+}
+.top-left ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.top-menu2 {
+    height: 50px;
+    background: #ffffff;
+    text-align: center;
+    display: block;
+    flex-grow: 1;
+}
+.top-centainer{
+    font-weight: bold;
+    display: block;
+    position: relative;
+    right: 120px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.top-menu-right a{
+    justify-content: center;
+    position: relative;
+    left: 450px;
+    bottom: 20px;
+    color: #888888;
+    font-size: 20px;
+}
+
+.main{
+    height: 650px;
+}
+.main-title{
+    color: #000000;
+    text-align: center;
+    font-size: 35px;
+    height: 30px;
+    position: relative;
+    top: 25px;
+    font-weight: bold;
+}
+.top-left a{
+    text-decoration: none;
+    color: #888888;
+    float: left;
+    justify-content: flex-start;
+    padding: 10px;
+}
+a:hover{
+    background:#444444;
+}
+
+.photo{
+    background: url(../images/152929851781309644qsr75.jpg)
+    no-repeat;
+    height: 400px;
+    background-size: cover;
+    position: relative;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.photo h2{
+    font-size: 50px;
+    position: absolute;
+    margin: 0 0 0 150px;
+    left: 40px;
+    top: 50px;
+}
+
+.hot-item{
+    margin: 30px 0;
+    display: flex;
+}
+
+.item{
+    margin: 10px;
+    text-align: center;
+    
+}
+.hot-item a{
+    text-decoration: none;
+    color: black;
+}
+.hot-item a:hover{
+    background: none;
+}
+
+.centainer{
+    width: 1080px;
+    margin: 0 auto;
+}
+.word{
+    background:#888888;
+    height: 250px;
+    text-align: center;
+    font-family: monospace;
+}
+.big-word{
+    position: relative;
+    top: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.small-word{
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    line-height: 1.3px;
+    color: #ffffff;
+}
+.page-footer{
+    background: #ffffff;
+    height: 300px;
+}
+.footer-word{
+    text-align: center;
+    float: left;
+    display: flex;
+    position: relative;
+    top: 45px;
+    left: 430px;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1.8em;
+}
+.email{
+    display: flex;
+    position: relative;
+    top: 200px;
+}
+.email input{
+    width: 650px;
+    padding-left: 20px;
+}
+.email button{
+    position: relative;
+    top: 30px;
+    right: 49%;
+    width: 680px;
+    background: #000;
+    color:#ffffff;
+}
+.email input:focus{
+    outline: none;
+    border-color:#ccdd44;
+}
+.email i{
+    position: relative;
+    left: 20px;
+    top: 4px;
+}
+.buttom-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.buttom-menu{
+    background: #000;
+    height: 40px;
+    display: block;
+}
+.buttom-menu a{
+    position: relative;
+    left: 410px;
+    padding: 10px;
+    float: left;
+    display: flex;
+    text-decoration: none;
+    justify-content: flex-end;
+    color: #ddd;
+}
+.buttom-menu a:hover{
+    background: #aaaaaa;
+}
+.buttom-buttom{
+    background: #888888;
+    text-align: center;
+}
